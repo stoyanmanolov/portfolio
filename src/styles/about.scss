@@ -1,20 +1,24 @@
 @import "variables";
 
 .about {
-  padding: 22px 0 60.5px 0;
+  padding: 22px 36px 60.5px;
+
   h1 {
     margin: 0;
     font: Bold 32px/39px Montserrat;
     color: $grey;
+
     span {
       color: $red;
     }
   }
+
   p {
     margin: 20px 0 0 0;
     font: Italic 26px/33px Source Sans Pro;
     font-weight: 300;
     color: $grey;
+
     span {
       font-weight: 600;
     }
