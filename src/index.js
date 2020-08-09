@@ -1,5 +1,10 @@
+import "@fortawesome/fontawesome-free/js/fontawesome";
+import "@fortawesome/fontawesome-free/js/solid";
+import "@fortawesome/fontawesome-free/js/regular";
+import "@fortawesome/fontawesome-free/js/brands";
 import "./styles/styles.scss";
 import "./styles/nav.scss";
-import "./styles/about.scss";
+import "./styles/header.scss";
 import "./styles/skills.scss";
 import "./styles/projects.scss";
+import "./styles/footer.scss";
