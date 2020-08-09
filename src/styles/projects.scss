@@ -1,8 +1,93 @@
 @import "variables";
 
 .projects {
+  display: flex;
+  flex-direction: column;
+
   hr {
     width: 80px;
     bottom: -15px;
+  }
+
+  .card {
+    padding-bottom: 60px;
+
+    :last-child {
+      padding-bottom: 0;
+    }
+
+    .image {
+      height: 360px;
+      width: 100%;
+      background: grey;
+    }
+
+    .body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 0;
+      background: white;
+
+      .text {
+        padding-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card-heading {
+          position: relative;
+          margin-bottom: 5px;
+
+          h4 {
+            color: $red;
+            font: Bold 24px/29px Montserrat;
+          }
+
+          hr {
+            width: 30%;
+            border: 1px solid $red;
+            position: absolute;
+            bottom: -10px;
+          }
+        }
+
+        p {
+          color: $brown;
+          font: Italic 16px/20px Source Sans Pro;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+
+        > button {
+          outline: 0;
+          cursor: pointer;
+        }
+
+        .btn {
+          font: Bold 15px/19px Montserrat;
+          width: 125px;
+          height: 35px;
+          background: white;
+          box-shadow: 0px 0px 5px #00000029;
+          border: 2px solid black;
+          border-radius: 10px;
+        }
+
+        .demo {
+          margin-bottom: 10px;
+          color: $red;
+          border-color: $red;
+        }
+
+        .github {
+          color: $brown;
+          border-color: $brown;
+        }
+      }
+    }
   }
 }
