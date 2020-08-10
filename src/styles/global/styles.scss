@@ -41,6 +41,13 @@ p {
   }
 }
 
+.content {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  transition: right 0.3s;
+}
+
 .container {
   padding: 60px 36px 100px;
 }

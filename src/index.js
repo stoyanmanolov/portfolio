@@ -24,7 +24,7 @@ document.getElementById("toggler").addEventListener("click", (event) => {
     });
 
     document.body.classList.add("drawer-body");
-    document.getElementById("drawer").classList.add("drawer");
+    document.getElementById("drawer").classList.add("drawer-open");
     document.getElementById("content").classList.add("drawer-content");
 
     open = true;
@@ -38,7 +38,7 @@ document.getElementById("toggler").addEventListener("click", (event) => {
     });
 
     document.body.classList.remove("drawer-body");
-    document.getElementById("drawer").classList.remove("drawer");
+    document.getElementById("drawer").classList.remove("drawer-open");
     document.getElementById("content").classList.remove("drawer-content");
 
     open = false;
