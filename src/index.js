@@ -15,14 +15,32 @@ let open = false;
 
 document.getElementById("toggler").addEventListener("click", (event) => {
   if (!open) {
+    const togglerBars = document
+      .getElementById("toggler")
+      .getElementsByTagName("span");
+
+    Array.prototype.slice.call(togglerBars).forEach((toggleBar) => {
+      toggleBar.classList.add("open");
+    });
+
     document.body.classList.add("drawer-body");
     document.getElementById("drawer").classList.add("drawer");
     document.getElementById("content").classList.add("drawer-content");
+
     open = true;
   } else if (open) {
+    const togglerBars = document
+      .getElementById("toggler")
+      .getElementsByTagName("span");
+
+    Array.prototype.slice.call(togglerBars).forEach((toggleBar) => {
+      toggleBar.classList.remove("open");
+    });
+
     document.body.classList.remove("drawer-body");
     document.getElementById("drawer").classList.remove("drawer");
     document.getElementById("content").classList.remove("drawer-content");
+
     open = false;
   }
 });
