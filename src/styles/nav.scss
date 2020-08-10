@@ -7,6 +7,12 @@ nav {
   flex-direction: column;
   justify-content: center;
 
+  ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .toggler {
     align-self: flex-end;
     display: flex;
@@ -17,6 +23,7 @@ nav {
     border: 0;
     outline: 0;
     background: 0;
+    cursor: pointer;
 
     > span {
       width: 23px;
@@ -27,7 +34,7 @@ nav {
     }
 
     .open {
-      transition: all 0.2s;
+      transition: all 0.3s;
     }
 
     span:last-child {
@@ -64,5 +71,45 @@ nav {
     .bar:nth-of-type(3) {
       transform: rotate(0);
     }
+  }
+
+  @media (min-width: 768px) {
+    margin: 55px 0 100px 0;
+    height: 0;
+
+    .toggler {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    .nav-item {
+      margin-right: 30px;
+
+      a {
+        color: $brown;
+      }
+    }
+
+    .nav-item:last-child {
+      margin: 0;
+    }
+  }
+}
+
+.nav-item {
+  list-style-type: none;
+
+  a {
+    font: Bold 24px/29px Montserrat;
+    color: $background;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $red;
   }
 }

@@ -23,4 +23,20 @@ header {
       font-weight: 600;
     }
   }
+
+  @media (min-width: 768px) {
+    padding: 0 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      width: 316px;
+      text-align: center;
+      font: Bold 40px/49px Montserrat;
+    }
+    p {
+      text-align: center;
+      font: 26px/33px;
+    }
+  }
 }

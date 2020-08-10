@@ -15,22 +15,23 @@
   </head>
   <body>
     <div id="content" class="content">
-      <nav>
+      <nav id="nav">
         <button id="toggler" class="toggler">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </button>
+        <ul id="navbar"></ul>
       </nav>
-      <header>
-        <h1>Hi! My name is <span>Stoyan.</span></h1>
+      <header id="header">
+        <h1>Hi! My name is <span>Stoyan</span>.</h1>
         <p>
           I'm a <span>Front End Developer</span> and a learning Web Designer
           living in Sofia, Bulgaria. I like building simple, powerful, fast and
           good- looking websites.
         </p>
       </header>
-      <section class="skills container">
+      <section id="skills" class="skills container">
         <div class="heading">
           <h3>Skills</h3>
           <hr />
@@ -44,7 +45,7 @@
         </p>
         <img src="images/Laptop.png" alt="Laptop">
       </section>
-      <section class="projects container">
+      <section id="projects" class="projects container">
       <div class="heading">
         <h3>Projects</h3>
         <hr />
@@ -82,11 +83,11 @@
         </div>
       </div>
       </section>
-      <footer>
+      <footer id="footer">
         <section>
         <h6>SEND ME AN E-MAIL</h6>
         <p>
-          I would love to hear from you at stoyanmanolovvv@gmail.com
+          I would love to hear from you at <br>stoyanmanolovvv@gmail.com
         </p>
         </section>
         <section>
@@ -108,11 +109,6 @@
         </section>
       </footer>
     </div>
-    <ul id="drawer" class="drawer">
-      <li>Home</li>
-      <li>About</li>
-      <li>Projects</li>
-      <li>Contacts</li>
-    </ul>
+    <ul id="drawer" class="drawer"></ul>
   </body>
 </html>

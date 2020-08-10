@@ -65,6 +65,10 @@
         > button {
           outline: 0;
           cursor: pointer;
+          margin-bottom: 10px;
+        }
+        button:last-child {
+          margin: 0;
         }
 
         .btn {
@@ -78,7 +82,6 @@
         }
 
         .demo {
-          margin-bottom: 10px;
           color: $red;
           border-color: $red;
         }
@@ -86,6 +89,31 @@
         .github {
           color: $brown;
           border-color: $brown;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .card {
+      .body {
+        flex-direction: row;
+        justify-content: space-between;
+
+        .text {
+          margin-left: 35px;
+          padding: 0;
+          align-items: flex-start;
+        }
+
+        .buttons {
+          margin-right: 35px;
+          flex-direction: row;
+          > button {
+            margin-right: 25px;
+          }
+          .demo {
+            margin-bottom: 0;
+          }
         }
       }
     }
