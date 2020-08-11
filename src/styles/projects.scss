@@ -10,11 +10,7 @@
   }
 
   .card {
-    padding-bottom: 60px;
-
-    :last-child {
-      padding-bottom: 0;
-    }
+    margin-bottom: 60px;
 
     .image {
       height: 360px;
@@ -94,6 +90,11 @@
       }
     }
   }
+
+  .card:last-child {
+    margin-bottom: 0;
+  }
+
   @media (min-width: 768px) {
     .card {
       .body {

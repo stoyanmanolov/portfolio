@@ -10,6 +10,9 @@ import "./styles/projects.scss";
 import "./styles/footer.scss";
 import "./styles/drawer.scss";
 import "./js/navbar";
+import "./js/projects";
+import "./js/typing";
+import "./js/animations";
 
 // Toggle Drawer
 let open = false;

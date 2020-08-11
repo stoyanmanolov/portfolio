@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0"
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "aos": "^3.0.0-beta.6",
+    "typed.js": "^2.0.11"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300;1,400;1,600&display=swap"
       rel="stylesheet"
@@ -25,67 +26,32 @@
         <ul id="navbar"></ul>
       </nav>
       <header id="header">
-        <h1>Hi! My name is <span>Stoyan</span>.</h1>
-        <p>
-          I'm a <span>Front End Developer</span> and a learning Web Designer
-          living in Sofia, Bulgaria. I like building simple, powerful, fast and
-          good-looking websites.
-        </p>
+        <div>
+        <h1 id="introduction"></h1></div>
+        <p id="about-me"></p>
       </header>
       <section id="skills" class="skills container">
-        <div class="heading">
+        <div class="heading" data-aos="fade-in">
           <h3>Skills</h3>
           <hr />
         </div>
-        <p>
+        <p data-aos="fade-down">
           <b>• Client-side:</b> HTML, CSS, JavaScript, React, Angular.</br>
           <b>• Server-side:</b> Node, Express, MongoDB.</br>
           <b>• Design:</b> Adobe XD.</br>
           <b>• Testing:</b> Jest, Enzyme.</br>
           <b>• Less experience worth noting:</b> C#, SQL, .NET.
         </p>
-        <img src="images/Laptop.png" alt="Laptop">
+        <img src="images/Laptop.png" alt="Laptop" data-aos="fade-down">
       </section>
       <section id="projects" class="projects container">
-      <div class="heading">
+      <div class="heading" data-aos="fade-in">
         <h3>Projects</h3>
         <hr />
       </div>
-      <div class="card">
-        <div class="image"></div>
-        <div class="body">
-          <div class='text'>
-            <div class="card-heading">
-              <h4>Shoes Seller</h4>
-              <hr class="card-divider">
-            </div>
-            <p>A MERN Stack E-Commerce app.</p>
-          </div>
-          <div class="buttons">
-            <button class="btn demo">DEMO</button>
-            <button class="btn github">GITHUB</button>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="image"></div>
-        <div class="body">
-          <div class='text'>
-            <div class="card-heading">
-              <h4>Portfolio</h4>
-              <hr>
-            </div>
-            <p>An HTML/CSS/JS portfolio website.</p>
-          </div>
-          <div class="buttons">
-            <button class="btn demo">DEMO</button>
-            <button class="btn github">GITHUB</button>
-          </div>
-        </div>
-      </div>
       </section>
       <footer id="footer">
-        <div class="footer-content">
+        <div class="footer-content" data-aos="fade-in">
           <section>
           <h6>SEND ME AN E-MAIL</h6>
           <p>
