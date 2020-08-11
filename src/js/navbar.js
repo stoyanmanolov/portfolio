@@ -1,5 +1,5 @@
 const navBarItems = function () {
-  return `<li class="nav-item"><a href="#">Home</a></li>
+  return `<li class="nav-item"><a href="#header">About</a></li>
   <li class="nav-item"><a href="#skills">Skills</a></li>
   <li class="nav-item"><a href="#projects">Projects</a></li>
   <li class="nav-item"><a href="#footer">Contacts</a></li>`;
