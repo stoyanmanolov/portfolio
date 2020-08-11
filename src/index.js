@@ -56,7 +56,6 @@ document.getElementById("toggler").addEventListener("click", (event) => {
 const menuItems = document.getElementById("drawer").getElementsByTagName("a");
 
 Array.prototype.slice.call(menuItems).forEach((menuItem) => {
-  console.log(menuItem);
   menuItem.addEventListener("click", (event) => {
     closeDrawer();
   });

@@ -7,6 +7,10 @@ nav {
   flex-direction: column;
   justify-content: center;
 
+  .logo {
+    display: none;
+  }
+
   ul {
     display: none;
     margin: 0;
@@ -74,7 +78,7 @@ nav {
   }
 
   @media (min-width: 768px) {
-    margin: 55px 0 100px 0;
+    margin: 55px 0 100px;
     height: 0;
 
     .toggler {
@@ -96,6 +100,28 @@ nav {
 
     .nav-item:last-child {
       margin: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    margin: 45px 0 0;
+    height: initial;
+    width: 1140px;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+
+    .nav-item {
+      margin-right: 66px;
+    }
+
+    .logo {
+      display: initial;
+      margin: 0;
+    }
+
+    ul {
+      margin-left: auto;
     }
   }
 }
