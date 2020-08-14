@@ -23,7 +23,7 @@ const projects = [
   {
     name: "Portfolio",
     description: "An HTML/CSS/JS portfolio website.",
-    demoLink: "http://stoyanmanolov.github.io/portfolio.",
+    demoLink: "http://stoyanmanolov.github.io/portfolio",
     githubLink: "https://github.com/stoyanmanolov/portfolio",
     image: "src/images/Portfolio.jpg",
   },
