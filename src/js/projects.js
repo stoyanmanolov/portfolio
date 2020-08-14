@@ -1,31 +1,36 @@
+import Portfolio from "../images/Portfolio.jpg";
+import Typespeed from "../images/Typespeed.jpg";
+import ShoesSeller from "../images/ShoesSeller.jpg";
+import WeatherApp from "../images/WeatherApp.jpg";
+
 const projects = [
   {
     name: "Shoes Seller",
     description: "A MERN Stack E-Commerce app",
     demoLink: "",
     githubLink: "https://github.com/stoyanmanolov/shoes-seller",
-    image: "src/images/ShoesSeller.jpg",
+    image: ShoesSeller,
   },
   {
     name: "Weather App",
     description: "A weather app using OpenWeatherApi.",
-    demoLink: "https://weather-app-sm.netlify.app/",
+    demoLink: "https://weather-app-sm.netlify.app",
     githubLink: "https://github.com/stoyanmanolov/weather-app",
-    image: "src/images/WeatherApp.jpg",
+    image: WeatherApp,
   },
   {
     name: "Typespeed",
     description: "A typing speed measuring app.",
-    demoLink: "https://stoyanmanolov.github.io/typespeed/",
+    demoLink: "https://stoyanmanolov.github.io/typespeed",
     githubLink: "https://github.com/stoyanmanolov/typespeed",
-    image: "src/images/Typespeed.jpg",
+    image: Typespeed,
   },
   {
     name: "Portfolio",
     description: "An HTML/CSS/JS portfolio website.",
     demoLink: "http://stoyanmanolov.github.io/portfolio",
     githubLink: "https://github.com/stoyanmanolov/portfolio",
-    image: "src/images/Portfolio.jpg",
+    image: Portfolio,
   },
 ];
 
