@@ -2,16 +2,20 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
+  "homepage": "http://stoyanmanolov.github.io/portfolio",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "aos": "^3.0.0-beta.6",
+    "gh-pages": "^3.1.0",
     "typed.js": "^2.0.11"
   },
   "devDependencies": {
