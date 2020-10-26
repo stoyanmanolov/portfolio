@@ -7,7 +7,7 @@ const projects = [
   {
     name: "Shoes Seller",
     description: "A MERN Stack E-Commerce app",
-    demoLink: "",
+    demoLink: "https://gentle-chamber-19663.herokuapp.com/",
     githubLink: "https://github.com/stoyanmanolov/shoes-seller",
     image: ShoesSeller,
   },
