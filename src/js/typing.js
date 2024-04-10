@@ -1,7 +1,7 @@
 import Typed from "typed.js";
 
 new Typed("#introduction", {
-  strings: ["Hi! My name is <span>Stoyan</span>."],
+  strings: ["Hi! My name is <span>Stoyan Manolov</span>."],
   typeSpeed: 5,
   loop: false,
   showCursor: false,
