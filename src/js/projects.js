@@ -2,8 +2,15 @@ import Portfolio from "../images/Portfolio.jpg";
 import Typespeed from "../images/Typespeed.jpg";
 import ShoesSeller from "../images/ShoesSeller.jpg";
 import WeatherApp from "../images/WeatherApp.jpg";
+import Travel from "../images/Travel.png";
 
 const projects = [
+  {
+    name: "Travel",
+    description: "A Spring, Angular travel agency app",
+    githubLink: "https://github.com/stoyanmanolov/travel",
+    image: Travel,
+  },
   {
     name: "Shoes Seller",
     description: "A MERN Stack E-Commerce app",
@@ -46,10 +53,8 @@ function sendProjectHTML(project, even) {
         <p>${project.description}</p>
       </div>
       <div class="links">
-        <a href="${project.demoLink}" class="btn demo" target="_blank">DEMO</a>
-        <a href="${
-          project.githubLink
-        }" class="btn github" target="_blank">GITHUB</a>
+        ${project.demoLink ? `<a href="${project.demoLink}" class="btn demo" target="_blank">DEMO</a>` : ""}
+        <a href="${project.githubLink}" class="btn github" target="_blank">GITHUB</a>
       </div>
     </div>
   </div>`;

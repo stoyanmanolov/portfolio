@@ -8,7 +8,7 @@ new Typed("#introduction", {
   onComplete: function () {
     new Typed("#about-me", {
       strings: [
-        "I'm a <span>Front End Developer</span> and a learning Web Designer living in Sofia, Bulgaria.^500 I like building simple, powerful, fast and good-looking websites.",
+        "I'm a <span>Full-Stack Web Developer</span> living in Sofia, Bulgaria.^500 I like building powerful, fast and scalable websites.",
       ],
       typeSpeed: 5,
       startDelay: 500,

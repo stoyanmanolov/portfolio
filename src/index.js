@@ -14,6 +14,9 @@ import "./js/projects";
 import "./js/typing";
 import "./js/animations";
 
+// Show root
+document.body.style.display = "initial";
+
 // Toggle Drawer
 let open = false;
 
